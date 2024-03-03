@@ -25,8 +25,8 @@ main {
 
 .image-display img {
   margin: 150px auto;
-  width: 300px;
-  height: 400px;
+  width: 280px;
+  height: 380px;
   object-fit: cover;
 }
 
@@ -34,7 +34,7 @@ main {
   display: flex;
   flex-direction: column;
   margin: 150px 0;
-  width: 300px;
+  width: 250px;
   padding-left: 30px;
   justify-content: space-between;
   background-color: var(--neutral-white-900);
@@ -47,18 +47,25 @@ main {
   font-size: 16px;
   letter-spacing: 5px;
   padding: 0;
-  margin-top: 30px;
-  margin-bottom: 0px;
+  margin: 20px 0;
   text-transform: uppercase;
 }
 
 .content h1 {
-    font-family: "Fraunces";
-    font-weight: 700;
-    color: var(--neutral-dark_blue-300);
-    padding: 0;
-    margin: 0;
-    width: 200px;
+  font-family: "Fraunces";
+  font-weight: 700;
+  color: var(--neutral-dark_blue-300);
+  padding: 0;
+  margin: 0;
+  width: 200px;
+}
+.content p {
+  font-family: "Monteserrat";
+  font-size: 14px;
+  color: var(--darkish-blue-200);
+  width: 200px;
+  line-height: 25px;
+  letter-spacing: .5px;
 }
 
 .attribution {
