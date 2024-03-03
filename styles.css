@@ -21,7 +21,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
-  border-radius: 5px;
 }
 
 .image-display img {
@@ -97,6 +96,10 @@ body {
   border-radius: 7px;
 }
 
+.cart:hover {
+    background-color:hsl(159, 48%, 20%) ;
+    cursor: pointer;
+}
 .cart p {
   display: flex;
   font-family: Montserrat;
