@@ -17,16 +17,17 @@ body {
   justify-self: end;
 }
 
-main {
+.main-items {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
+  border-radius: 5px;
 }
 
 .image-display img {
   margin: 150px auto;
   width: 300px;
-  height: 380px;
+  height: 428.4px;
   object-fit: cover;
 }
 
@@ -64,11 +65,13 @@ main {
   font-size: 14px;
   color: var(--darkish-blue-200);
   width: 220px;
-  line-height: 25px;
+  line-height: 22px;
+  margin: 16px 0;
 }
 
 .prices {
   display: inline;
+  margin: 10px 0;
 }
 
 .new-price {
@@ -81,7 +84,7 @@ main {
 .old-price {
   font-family: Montserrat;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   color: var(--darkish-blue-200);
   padding: 0 20px;
 }
