@@ -24,9 +24,9 @@ body {
 }
 
 .image-display .desktop {
-  margin: 150px auto;
-  width: 300px;
-  height: 428.4px;
+  margin: 9.375rem auto;
+  width: 18.75rem;
+  height: 26.775rem;
   object-fit: cover;
 }
 
@@ -37,9 +37,9 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  margin: 150px 0;
-  width: 270px;
-  padding-left: 30px;
+  margin: 9.375rem 0;
+  width: 16.875rem;
+  padding-left: 1.875rem;
   justify-content: space-between;
   background-color: var(--neutral-white-900);
 }
@@ -48,10 +48,10 @@ body {
   font-family: Montserrat;
   color: var(--darkish-blue-200);
   font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 5px;
+  font-size: 1rem;
+  letter-spacing: 0.3125rem;
   padding: 0;
-  margin: 20px 0;
+  margin: 1.25rem 0;
   text-transform: uppercase;
 }
 
@@ -61,43 +61,42 @@ body {
   color: var(--neutral-dark_blue-300);
   padding: 0;
   margin: 0;
-  width: 200px;
+  width: 12.5rem;
 }
 .content p {
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--darkish-blue-200);
-  width: 220px;
-  line-height: 22px;
-  margin: 16px 0;
+  width: 13.75rem;
+  line-height: 1.375rem;
+  margin: 1rem 0;
 }
 
 .prices {
   display: inline;
-  margin: 10px 0;
+  margin: 0.625rem 0;
 }
-
 .new-price {
   font-family: "Fraunces";
   color: var(--primary-dark_cyan-500);
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .old-price {
   font-family: Montserrat;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--darkish-blue-200);
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 
 .cart {
   color: var(--neutral-white-900);
   background-color: var(--primary-dark_cyan-500);
-  width: 220px;
-  margin: 20px 0;
-  border-radius: 7px;
+  width: 13.75rem;
+  margin: 1.25rem 0;
+  border-radius: 0.4375rem;
 }
 
 .cart:hover {
@@ -109,70 +108,27 @@ body {
   font-family: Montserrat;
   justify-content: center;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--neutral-white-900);
-  margin: 10px 0;
+  margin: 0.625rem 0;
 }
 
 .cart p img {
-  padding: 0 10px;
+  padding: 0 0.625rem;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 480px) {
-    body {
-      background-color: var(--primary-cream-600);
-      width: 480px;
-      overflow: hidden;
-    }
-    .main-items {
-      display: flex;
-      flex-direction: column;
-    }
-    .image-display .desktop {
-      display: none;
-    }
-  
-    .image-display .mobile {
-      display: flex;
-      justify-content: end;
-      width: 400px;
-      margin: 70px 0 auto;
-      height: 250px;
-      align-items: center;
-    }
-    .content {
-      margin: 0 auto;
-      width: 370px;
-    }
-    .content h1 {
-      width: 300px;
-    }
-  
-    .content p {
-      width: 350px;
-    }
-  
-    .cart {
-      width: 350px;
-    }
-    .attribution {
-      display: none;
-    }
-  }
-  
-
-@media (max-width: 375px) {
+@media (max-width: 30rem) {
   body {
     background-color: var(--primary-cream-600);
-    width: 360px;
+    width: 30rem;
     overflow: hidden;
   }
   .main-items {
@@ -186,25 +142,67 @@ body {
   .image-display .mobile {
     display: flex;
     justify-content: end;
-    width: 340px;
-    margin: 70px 0 auto;
-    height: 250px;
+    width: 25rem;
+    margin: 4.375rem auto 0 auto;
+    height: 15.625rem;
     align-items: center;
   }
   .content {
     margin: 0 auto;
-    width: 310px;
+    width: 23.125rem;
   }
   .content h1 {
-    width: 300px;
+    width: 18.75rem;
   }
 
   .content p {
-    width: 290px;
+    width: 21.875rem;
   }
 
   .cart {
-    width: 290px;
+    width: 21.875rem;
+  }
+  .attribution {
+    display: none;
+  }
+}
+
+@media (max-width: 23.4375rem) {
+  body {
+    background-color: var(--primary-cream-600);
+    width: 22.5rem;
+    overflow: hidden;
+  }
+  .main-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-display .desktop {
+    display: none;
+  }
+
+  .image-display .mobile {
+    display: flex;
+    justify-content: end;
+    width: 21.25rem;
+    margin: 4.375rem auto 0 auto;
+    height: 15.625rem;
+    align-items: center;
+  }
+  .content {
+    margin: 0 auto;
+    width: 19.375rem;
+  }
+  .content h1 {
+    width: 18.75rem;
+  }
+
+  .content p {
+    width: 18.125rem;
+  }
+
+  .cart {
+    width: 18.125rem;
   }
   .attribution {
     display: none;
