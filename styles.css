@@ -23,11 +23,15 @@ body {
   gap: 0;
 }
 
-.image-display img {
+.image-display .desktop {
   margin: 150px auto;
   width: 300px;
   height: 428.4px;
   object-fit: cover;
+}
+
+.image-display .mobile {
+  display: none;
 }
 
 .content {
@@ -97,8 +101,8 @@ body {
 }
 
 .cart:hover {
-    background-color:hsl(159, 48%, 20%) ;
-    cursor: pointer;
+  background-color: hsl(159, 48%, 20%);
+  cursor: pointer;
 }
 .cart p {
   display: flex;
@@ -113,10 +117,39 @@ body {
 .cart p img {
   padding: 0 10px;
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: var(--primary-cream-600);
+    width: 360px;
+    overflow: scroll;
+  }
+  .main-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-display .desktop {
+    display: none;
+  }
+  
+  .image-display .mobile {
+    display: flex;
+    justify-content: end;
+    width: 340px;
+    margin: 30px 0 auto;
+    height: 250px;
+    align-items: center;
+  }
+  .content {
+    margin: 0 auto;
+    width: 310px;
+  }
 }
