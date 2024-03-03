@@ -65,7 +65,18 @@ main {
   color: var(--darkish-blue-200);
   width: 200px;
   line-height: 25px;
-  letter-spacing: .5px;
+  letter-spacing: .25px;
+}
+
+.prices {
+    display: inline;
+}
+
+.new-price {
+    font-family: "Fraunces";
+    color: var(--primary-dark_cyan-500);
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .attribution {
