@@ -25,7 +25,7 @@ main {
 }
 
 .image-display img {
-  margin: 50px auto;
+  margin: 150px auto;
   width: 300px;
   height: 400px;
   object-fit: cover;
@@ -34,7 +34,11 @@ main {
 .content {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin: 150px 0;
+    width: 300px;
+    padding-left: 30px;
+    justify-content: space-between;
+    background-color: var(--neutral-white-900);
 }
 
 .attribution {
