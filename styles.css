@@ -24,9 +24,9 @@ body {
 }
 
 .image-display .desktop {
-  margin: 150px auto;
-  width: 300px;
-  height: 428.4px;
+  margin: 9.375rem auto;
+  width: 18.75rem;
+  height: 26.775rem;
   object-fit: cover;
 }
 
@@ -37,9 +37,9 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  margin: 150px 0;
-  width: 270px;
-  padding-left: 30px;
+  margin: 9.375rem 0;
+  width: 16.875rem;
+  padding-left: 1.875rem;
   justify-content: space-between;
   background-color: var(--neutral-white-900);
 }
@@ -48,10 +48,10 @@ body {
   font-family: Montserrat;
   color: var(--darkish-blue-200);
   font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 5px;
+  font-size: 1rem;
+  letter-spacing: 0.3125rem;
   padding: 0;
-  margin: 20px 0;
+  margin: 1.25rem 0;
   text-transform: uppercase;
 }
 
@@ -61,20 +61,20 @@ body {
   color: var(--neutral-dark_blue-300);
   padding: 0;
   margin: 0;
-  width: 200px;
+  width: 12.5rem;
 }
 .content p {
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--darkish-blue-200);
-  width: 220px;
-  line-height: 22px;
-  margin: 16px 0;
+  width: 13.75rem;
+  line-height: 1.375rem;
+  margin: 1rem 0;
 }
 
 .prices {
   display: inline;
-  margin: 10px 0;
+  margin: 0.625rem 0;
 }
 
 .new-price {
@@ -127,47 +127,46 @@ body {
 }
 
 @media (max-width: 480px) {
-    body {
-      background-color: var(--primary-cream-600);
-      width: 480px;
-      overflow: hidden;
-    }
-    .main-items {
-      display: flex;
-      flex-direction: column;
-    }
-    .image-display .desktop {
-      display: none;
-    }
-  
-    .image-display .mobile {
-      display: flex;
-      justify-content: end;
-      width: 400px;
-      margin: 70px 0 auto;
-      height: 250px;
-      align-items: center;
-    }
-    .content {
-      margin: 0 auto;
-      width: 370px;
-    }
-    .content h1 {
-      width: 300px;
-    }
-  
-    .content p {
-      width: 350px;
-    }
-  
-    .cart {
-      width: 350px;
-    }
-    .attribution {
-      display: none;
-    }
+  body {
+    background-color: var(--primary-cream-600);
+    width: 480px;
+    overflow: hidden;
   }
-  
+  .main-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-display .desktop {
+    display: none;
+  }
+
+  .image-display .mobile {
+    display: flex;
+    justify-content: end;
+    width: 400px;
+    margin: 70px 0 auto;
+    height: 250px;
+    align-items: center;
+  }
+  .content {
+    margin: 0 auto;
+    width: 370px;
+  }
+  .content h1 {
+    width: 300px;
+  }
+
+  .content p {
+    width: 350px;
+  }
+
+  .cart {
+    width: 350px;
+  }
+  .attribution {
+    display: none;
+  }
+}
 
 @media (max-width: 375px) {
   body {
